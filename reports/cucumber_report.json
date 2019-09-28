@@ -1,0 +1,575 @@
+[
+  {
+    "description": "    HomeLoanCal-for-Single, Income of $90,000, expense of $10,600 and to live in.",
+    "keyword": "Feature",
+    "name": "TS-001-_HomeLoanCal-for-Single",
+    "line": 1,
+    "id": "ts-001-_homeloancal-for-single",
+    "tags": [],
+    "uri": "features\\TS-001-HomeLoanCal-for-Single.feature",
+    "elements": [
+      {
+        "id": "ts-001-_homeloancal-for-single;test-scenario-1---ts-001_homeloancal-for-single",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test Scenario 1 - TS-001_HomeLoanCal-for-Single",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\hook-steps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open \"home-loan-calculator\" page",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50347000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Application Type",
+                      "Number of dependants",
+                      "Property you would like to buy"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Single",
+                      "0",
+                      "Home to live in"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter Your details column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1872000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Your income (before tax)",
+                      "Your other income"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "80000",
+                      "10000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter Your earnings column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2042000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Living expenses",
+                      "Current home loan repayments",
+                      "Other loan repayments",
+                      "Other commitments",
+                      "Total credit card limits"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "500",
+                      "0",
+                      "100",
+                      "0",
+                      "10000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter Your expenses column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on \"Work out how much I could borrow\" button",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I see my borrowing estimate of \"$467,000\"",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2422000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\hook-steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4927000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    HomeLoanCal to test 'Start over' button functionality",
+    "keyword": "Feature",
+    "name": "TS-002-_HomeLoanCal-to-verify-Start_over-button",
+    "line": 1,
+    "id": "ts-002-_homeloancal-to-verify-start_over-button",
+    "tags": [],
+    "uri": "features\\TS-002-HomeLoanCal-to-verify-Start_over-button.feature",
+    "elements": [
+      {
+        "id": "ts-002-_homeloancal-to-verify-start_over-button;test-scenario-2---ts-002_homeloancal-to-verify-start_over-button",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test Scenario 2 - TS-002_HomeLoanCal-to-verify-Start_over-button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\hook-steps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open \"home-loan-calculator\" page",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11725000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Your income (before tax)",
+                      "Your other income"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "80000",
+                      "10000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter Your earnings column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1788000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Living expenses",
+                      "Current home loan repayments",
+                      "Other loan repayments",
+                      "Other commitments",
+                      "Total credit card limits"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "500",
+                      "0",
+                      "100",
+                      "0",
+                      "10000"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I enter Your expenses column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click on \"Work out how much I could borrow\" button",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on \"Start over\" button",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Your income (before tax)",
+                      "Your other income"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "0",
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I see Your earnings column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Living expenses",
+                      "Current home loan repayments",
+                      "Other loan repayments",
+                      "Other commitments",
+                      "Total credit card limits"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I see Your expenses column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\hook-steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1615000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    HomeLoanCal to verify a Message when home loan estimate is not able to be estimated",
+    "keyword": "Feature",
+    "name": "TS-003-HomeLoanCal-to-verify-a-Message_unable-to-estimate",
+    "line": 1,
+    "id": "ts-003-homeloancal-to-verify-a-message_unable-to-estimate",
+    "tags": [],
+    "uri": "features\\TS-003-HomeLoanCal-to-verify-a-Message_unable-to-estimate.feature",
+    "elements": [
+      {
+        "id": "ts-003-homeloancal-to-verify-a-message_unable-to-estimate;test-scenario-3---ts-003_homeloancal-to-verify-a-message_unable-to-estimate",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Scenario 3 - TS-003_HomeLoanCal-to-verify-a-Message_unable-to-estimate",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\hook-steps.js:3"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open \"home-loan-calculator\" page",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8486000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Application Type",
+                      "Number of dependants",
+                      "Property you would like to buy"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Single",
+                      "0",
+                      "Home to live in"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter Your details column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 759000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Your income (before tax)",
+                      "Your other income"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "0",
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter Your earnings column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Living expenses",
+                      "Current home loan repayments",
+                      "Other loan repayments",
+                      "Other commitments",
+                      "Total credit card limits"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I enter Your expenses column as following:",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on \"Work out how much I could borrow\" button",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I see a message of \"estimation\" as \"Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.\"",
+            "match": {
+              "location": "features\\step_definitions\\home-loan-cal-steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2266000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\hook-steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1412000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
